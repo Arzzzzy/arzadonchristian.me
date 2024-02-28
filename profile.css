@@ -1,0 +1,38 @@
+.profile p{
+  text-align: justify;
+  font-family: 'Montserrat';
+ }
+ .profile H4{
+  color: rgba(255, 166, 0, 0.877);
+ }
+.title {
+  font-size: 36px;
+}
+
+.left-title{
+ padding-top: 20px;
+ text-align: left;
+ font-weight: bold;
+ color: rgba(255, 166, 0, 0.877);
+}
+
+  
+.picture {
+  display: inline-block;
+  width: 100%;
+  max-width: 600px;
+  margin-right: 1.5%;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 2px;
+}
+  
+.picture img {
+  transform: scale(1);
+  max-width: 100%;
+  transition: 0.5s ease all;
+}
+  
+
+  
